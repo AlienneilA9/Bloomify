@@ -1,0 +1,94 @@
+.dashboard__place-order {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashboard__place-order-form {
+    border: 1px solid black;
+    padding: 1%;
+    width: 40%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subhead {
+    color: white;
+}
+
+.input12 {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 100%;
+    border-radius: 0;
+    color: white;
+    background: #333;
+    font-size: 16;
+    transition: 0.3s ease;
+    min-height: 50px;
+    border-radius: 30px 0px 0px 30px;
+    padding: 5%;
+}
+
+.makeRadius {
+    border-radius: 30px;
+}
+
+.form__form-group-field1 {
+    display: flex;
+}
+
+.getDownlineWallet12 {
+    display: flex;
+    border-radius: 0px 30px 30px 0px;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    background: #7611f7;
+    color: white;
+    border-left: 0px;
+}
+
+.getDownlineWallet12:hover {
+    cursor: pointer;
+}
+
+.textheight {
+    height: 10%;
+}
+
+.formContainer {
+    height: 90%;
+}
+
+.form__form-group12 {
+    margin-bottom: 5%;
+}
+
+.valuesPad {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.form__button-toolbar12 {
+    display: flex;
+    justify-content: center;
+}
+
+.swapButton {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 50px;
+    width: 100%;
+    background: #7611f7;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+}
+
+.swapButton:hover {
+    cursor: pointer;
+}
